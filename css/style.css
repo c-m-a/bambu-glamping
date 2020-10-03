@@ -144,3 +144,7 @@ hr {
   justify-content: space-between;
   align-items: center;
 }
+
+.restaurant__info p {
+  font-size: 1.3rem;
+}

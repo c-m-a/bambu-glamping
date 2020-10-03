@@ -24,7 +24,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   color: #fff;
   background-color: #000;
   position: fixed;
@@ -98,7 +98,7 @@ hr {
   color: #fff;
   background-color: #202020;
   position: fixed;
-  top: 8.1rem;
+  top: 7.1rem;
   z-index: 10;
   width: 100%;
   border-bottom: .1rem solid #cdc7c2;

@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  color: #fff;
+  background-color: #000;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding: 1.5rem;
+  font-size: 1.4rem;
+  width: 100%;
+  color: #fff;
+  background-color: #202020;
+}
+
+footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+header img {
+  height: 5rem;
+  margin-right: 1rem;
+}
+
+nav {
+  color: #fff;
+  background-color: #202020;
+}
+
+button {
+  padding: .8rem 1.8rem;
+  color: #fff;
+  border: .2rem solid #000;
+  border-radius: .3rem;
+  background-color: #000;
+}
+
+hr {
+  border: .1rem solid #cdc7c2;
+  margin: .3rem 0 1rem 0;
+}
+
+.footer__map-icon {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.header__whatsapp-icon {
+  font-size: 3.5rem;
+}
+
+.navbar {
+  margin-bottom: 1rem;
+}
+
+.navbar__items {
+  display: flex;
+  justify-content: center;
+  padding: 1rem .5rem;
+  list-style: none;
+}
+
+.navbar__item {
+  border: .1rem solid #fff;
+  border-radius: 2rem;
+  padding: .5rem 1.2rem;
+  margin: 0 .5rem;
+}
+
+.restaurant {
+  margin: 0 2rem;
+}
+
+.restaurant__card-list {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restaurant__card {
+  padding: 1.5rem;
+  width: 30rem;
+  height: 40rem;
+  border: .2rem solid #cdc7c2;
+  border-radius: .3rem;
+  margin: 0 1rem 2rem 1rem;
+}
+
+.restaurant__img img {
+  height: 20rem;
+  width: 100%;
+  border-radius: .3rem;
+  margin-bottom: .5rem;
+}
+
+.restaurant__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 16rem;
+}
+
+.restaurant__info-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

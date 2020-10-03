@@ -27,6 +27,15 @@ header {
   padding: 1.5rem;
   color: #fff;
   background-color: #000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+main {
+  margin-bottom: 4rem;
+  margin-top: 14rem;
 }
 
 footer {
@@ -61,11 +70,6 @@ header img {
   margin-right: 1rem;
 }
 
-nav {
-  color: #fff;
-  background-color: #202020;
-}
-
 button {
   padding: .8rem 1.8rem;
   color: #fff;
@@ -90,6 +94,12 @@ hr {
 
 .navbar {
   margin-bottom: 1rem;
+  color: #fff;
+  background-color: #202020;
+  position: fixed;
+  top: 8rem;
+  z-index: 10;
+  width: 100%;
 }
 
 .navbar__items {
@@ -111,7 +121,6 @@ hr {
 }
 
 .restaurant__card-list {
-  position: relative;
   display: flex;
   flex-wrap: wrap;
 }
